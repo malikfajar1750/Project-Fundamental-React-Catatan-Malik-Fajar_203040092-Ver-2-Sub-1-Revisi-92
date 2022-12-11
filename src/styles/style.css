@@ -1,0 +1,154 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(214, 214, 214);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Note-item {
+  display: inline-block;
+  align-items: center;
+  margin: 54px 0;
+  border: 2px solid black;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.note-item__delete{
+  padding: 8px;
+  font-size: 28px;
+  position: none;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul{
+  padding: 32px;
+  margin:20px;
+  list-style-type: none;
+}
+
+.add-catatan > h2{
+  text-align: center;
+  margin: 20px 0 ;
+}
+
+/* bagian 2  */
+
+ .Note-input{
+  text-align: center;
+ }
+  
+
+.Note-input button {
+  width: 10%;
+  padding: 9px;
+  margin-top: 1em;
+  color: white; 
+  text-align: center;
+  background-color: #1ea0eb;
+  font-family: 'Inter', sans-serif;
+}
+
+.Textarea-input{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 0 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 20px;
+  font-size: 0 20px;
+  display: block;
+  position: relative;
+  border: 2px solid rgb(194, 194, 194); 
+}
+
+textarea{
+  margin: 1em;
+ margin-left: 400px;
+}
+.sisa-note{
+  display:inline;
+
+  font-size: 19px;
+  color: #585a58;
+}
+.Note-lenght, .sisa-note{
+padding: 1em;
+text-align: center;
+
+}
+.Note-Found{
+ text-align: center;
+ margin: 3em;
+}
+
+.Note-input input {
+  width: 50%;
+  padding: 9px;
+  margin: 8px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.daftar-Catatan{
+  text-align: center;
+  margin-bottom: 7px;
+ }
+
+.Note-list{
+  padding-top: 1em;
+  padding: 3em;
+  margin-bottom: 1em;
+}
+
+.Note_body{
+  margin-top: 3px;
+}
+.Note_title{
+  margin-top: 2px;
+  text-decoration: none;
+}
+.note-catatan{
+  background-color: #1ea0eb;
+  padding: 15px;
+  text-align: right;
+}
+.title_Note {
+  margin: 1em;
+  color: rgb(0, 0, 0);
+ 
+}
+.Show_Note{
+  margin: 1em;
+
+}
+.Body_Note{
+  margin:1em;
+  text-align: justify;
+}
+.Note_CreatedAt{
+  margin: 1px;
+  text-align: center;
+}
+.Note-header{
+  background-color: #000000;
+  text-align: center;
+  margin: 100px;
+  color: white;
+  padding: 12px;
+}
+.Note_body{
+  margin: 12px auto;
+  text-align: justify;
+}
+
+.catatan-notFound{
+   text-align: center;
+   font-size: 14px;
+   color: #1ea0eb;
+   margin-top: 100px;
+}
